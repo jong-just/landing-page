@@ -19,12 +19,12 @@ body {
     color: white;
     align-items: center;
     gap: 1rem;
-    padding: 16px;
+    padding: 16px 128px;
 }
 
 .header-logo {
-    font-size: 48px;
-    font-weight: bolder;
+    font-size: 24px;
+    font-weight: bold;
     color: #f9faf8
 }
 
@@ -34,5 +34,33 @@ body {
 
 /* Top section style and layout */
 
+.top-section {
+    display: flex;
+    padding: 74px 128px;
+    background-color: #1f2936;
+    color: white;
+}
 
+.top-section-container {
+    display:flex;
+    flex-direction: column;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    flex-basis: 50%;
+}
+.top-section-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 300;
+    margin: 10px 0;
+}
 
+.top-section-button {
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #3882F6;
+    align-self: flex-start;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
