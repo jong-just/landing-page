@@ -1,0 +1,38 @@
+html {
+    box-sizing: inherit;
+    font-family: sans-serif;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header style and layout */
+.header {
+    display: flex;
+    background-color: #1f2936;
+    color: white;
+    align-items: center;
+    gap: 1rem;
+    padding: 16px;
+}
+
+.header-logo {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+
+.link-one {
+    margin-left: auto;
+}
+
+/* Top section style and layout */
+
+
+
