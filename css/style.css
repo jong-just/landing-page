@@ -205,3 +205,25 @@ img {
     color: #e5e7eb;
     font-weight: 300;
 }
+
+
+/* Image crop and sizing */
+
+.emblem-pic {
+    width: 142px;
+    height: 142px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.nature {
+    object-position: 90% 50%;
+}
+
+.events {
+    object-position: 60% 65%;
+}
+
+.landscape {
+    object-position: 50% 100%;
+}
