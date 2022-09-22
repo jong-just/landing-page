@@ -109,6 +109,36 @@ img {
     padding-top: 6px;
 }
 
+/* Testimonial style and layout */
+
+.testimonial-container {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 86px 0;
+}
+
+.testimonial-content {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.testimonial-text {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937
+}
+
+.testimonial-author {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f2937;
+    display: flex;
+    justify-content: right;
+}
+
 /* Footer style and layout */
 
 .footer {
