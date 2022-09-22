@@ -39,6 +39,8 @@ body {
     padding: 74px 128px;
     background-color: #1f2936;
     color: white;
+    justify-content: space-between;
+    gap: 2rem;
 }
 
 .top-section-container {
@@ -48,6 +50,7 @@ body {
     color: #f9faf8;
     font-weight: bolder;
     flex-basis: 50%;
+    flex-shrink: 0;
 }
 .top-section-text {
     font-size: 18px;
@@ -61,6 +64,11 @@ body {
     font-weight: 400;
     background-color: #3882F6;
     align-self: flex-start;
-    padding: 8px 16px;
+    padding: 6px 24px;
     border-radius: 4px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
